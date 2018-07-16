@@ -1,4 +1,4 @@
-###常用注解
+### 常用注解
 
 `@Autowired` 对类成员变量、方法及构造函数进行标注，完成自动装配的工作
 
@@ -33,7 +33,7 @@
 `@WebAppConfiguration` 测试service层 指定加载applicationcontext是一个webapplicationcontext
 
 
-###注意事项
+### 注意事项
 
 如果没有带有参数的构造方法，无参的构造方法可以省略不写，否则一定要写上
 
@@ -48,7 +48,7 @@ dto 用于service和web层之间的传输，用来存储返回的结果
 web编写controller代码，控制数据传输和页面跳转
 
 
-###项目结构
+### 项目结构
 
 src主文件夹下包含main和test，分别是源码和测试代码文件夹
 
@@ -58,7 +58,7 @@ test一般包含个java测试源码层就好
 
 resource一般包括spring配置文件夹，mapper操作sql文件夹，mybatis-config和jdbc及log等配置文件
 
-###项目逻辑
+### 项目逻辑
 
 设置项目结构
 
@@ -86,14 +86,14 @@ resource一般包括spring配置文件夹，mapper操作sql文件夹，mybatis-c
 
 正式Coding
 
-###业务逻辑
+### 业务逻辑
 
 
 
 
-###常见问题
+### 常见问题
 
 
 
-###Spring配置
+### Spring配置
 
